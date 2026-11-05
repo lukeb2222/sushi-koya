@@ -175,51 +175,75 @@
   "gallery": [
     {
       "src": "images/gallery-1.jpg",
-      "alt": "Nigiri on the counter",
-      "caption": "Nigiri",
+      "alt": "Toro nigiri",
+      "caption": "Toro",
       "size": "tall"
     },
     {
       "src": "images/gallery-2.jpg",
-      "alt": "The twelve-seat sushi bar",
-      "caption": "The counter",
+      "alt": "Chū-toro nigiri on a lacquer tray with gari",
+      "caption": "Chū-toro",
       "size": "wide"
     },
     {
       "src": "images/gallery-3.jpg",
-      "alt": "Chef slicing fish",
-      "caption": "The knife",
+      "alt": "Kinmedai nigiri on dark slate",
+      "caption": "Kinmedai",
       "size": ""
     },
     {
       "src": "images/gallery-4.jpg",
-      "alt": "Otoro nigiri",
-      "caption": "Ōtoro",
+      "alt": "Hotate and uni nigiri",
+      "caption": "Hotate & uni",
       "size": ""
     },
     {
       "src": "images/gallery-5.jpg",
-      "alt": "Uni hand roll",
+      "alt": "Hand roll",
       "caption": "Hand roll",
       "size": "tall"
     },
     {
       "src": "images/gallery-6.jpg",
-      "alt": "Mini don",
-      "caption": "Mini don",
-      "size": ""
-    },
-    {
-      "src": "images/gallery-7.jpg",
-      "alt": "Appetizer course",
-      "caption": "Zensai",
+      "alt": "A flight of tuna: kama toro, chū-toro, ōtoro, akami",
+      "caption": "Four cuts of tuna",
       "size": "wide"
     },
     {
-      "src": "images/gallery-8.jpg",
-      "alt": "Dessert",
-      "caption": "Dessert",
+      "src": "images/gallery-7.jpg",
+      "alt": "A small bowl of tuna over rice",
+      "caption": "Maguro don",
       "size": ""
+    },
+    {
+      "src": "images/gallery-8.jpg",
+      "alt": "Aji nigiri with scallion and ginger",
+      "caption": "Aji",
+      "size": ""
+    },
+    {
+      "src": "images/gallery-9.jpg",
+      "alt": "Scallop nigiri",
+      "caption": "Hotate",
+      "size": "wide"
+    },
+    {
+      "src": "images/gallery-10.jpg",
+      "alt": "Hamachi nigiri",
+      "caption": "Hamachi",
+      "size": ""
+    },
+    {
+      "src": "images/gallery-11.jpg",
+      "alt": "Ikura gunkan",
+      "caption": "Ikura",
+      "size": ""
+    },
+    {
+      "src": "images/gallery-12.jpg",
+      "alt": "An omakase spread at the counter",
+      "caption": "Omakase",
+      "size": "wide"
     }
   ],
   "faq": [
@@ -249,5 +273,136 @@
     "story": "images/story.jpg",
     "counter": "images/counter.jpg",
     "chef": "images/chef.jpg"
-  }
+  },
+  "photoCredits": [
+    {
+      "title": "Chu Toro",
+      "author": "City Foodsters",
+      "url": "https://www.flickr.com/photos/cityfoodsters/15961801399",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "usedFor": "hero"
+    },
+    {
+      "title": "Ikura (Salmon Roe)",
+      "author": "City Foodsters",
+      "url": "https://www.flickr.com/photos/cityfoodsters/11555632875",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "usedFor": "story"
+    },
+    {
+      "title": "Tsuke (Lean Tuna marinated in soy sauce)",
+      "author": "City Foodsters",
+      "url": "https://www.flickr.com/photos/cityfoodsters/12734245275",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "usedFor": "counter"
+    },
+    {
+      "title": "Toro handroll",
+      "author": "T.Tseng",
+      "url": "https://www.flickr.com/photos/68147320@N02/15297186830",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "usedFor": "chef"
+    },
+    {
+      "title": "Toro",
+      "author": "Perfect Zero",
+      "url": "https://www.flickr.com/photos/perfectzero/12898999403",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "usedFor": "gallery-1"
+    },
+    {
+      "title": "Chu-toro (Semi Fatty Tuna)",
+      "author": "City Foodsters",
+      "url": "https://www.flickr.com/photos/cityfoodsters/11557101896",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "usedFor": "gallery-2"
+    },
+    {
+      "title": "Kinmedai",
+      "author": "T.Tseng",
+      "url": "https://www.flickr.com/photos/68147320@N02/16505543396/",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "usedFor": "gallery-3"
+    },
+    {
+      "title": "Hotate Nigiri and Hokkaido Uni Nigiri",
+      "author": "Vera Yu and David Li",
+      "url": "https://www.flickr.com/photos/yummy-porky/2500636335",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "usedFor": "gallery-4"
+    },
+    {
+      "title": "Spicy Scallop Hand Roll",
+      "author": "Tom Thai",
+      "url": "https://www.flickr.com/photos/eviltomthai/5152531263",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "usedFor": "gallery-5"
+    },
+    {
+      "title": "Kama toro, chu toro, otoro, akami",
+      "author": "T.Tseng",
+      "url": "https://www.flickr.com/photos/68147320@N02/15343415459",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "usedFor": "gallery-6"
+    },
+    {
+      "title": "tuna ball",
+      "author": "yukari.papa",
+      "url": "https://www.flickr.com/photos/28316887@N02/19011832150",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "usedFor": "gallery-7"
+    },
+    {
+      "title": "Aji sushi",
+      "author": "Pittaya Sroilong",
+      "url": "https://www.flickr.com/photos/pittaya/2481123368",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "usedFor": "gallery-8"
+    },
+    {
+      "title": "Scallop Sushi",
+      "author": "Marvin Lee",
+      "url": "https://www.flickr.com/photos/marvin_lee/3165789747",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "usedFor": "gallery-9"
+    },
+    {
+      "title": "Hamachi",
+      "author": "Jeremy Keith",
+      "url": "https://www.flickr.com/photos/adactio/8036069234",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "usedFor": "gallery-10"
+    },
+    {
+      "title": "Ikura (salmon roe)",
+      "author": "Jun Seita",
+      "url": "https://www.flickr.com/photos/jseita/10749275936",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "usedFor": "gallery-11"
+    },
+    {
+      "title": "omakase!",
+      "author": "smalljude",
+      "url": "https://www.flickr.com/photos/judemasti/6618064887",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "usedFor": "gallery-12"
+    }
+  ],
+  "photoNote": "Photos are illustrative of the omakase tradition and are used under Creative Commons licenses."
 }
