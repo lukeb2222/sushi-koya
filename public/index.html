@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Sushi Koya · Omakase on the Upper West Side, New York</title>
+  <meta name="description" content="Sushi Koya is a twelve-seat omakase counter at 163 West 71st Street on Manhattan's Upper West Side. 13- and 18-course omakase, nightly 5–10 pm. Reserve on Resy." />
+  <meta name="theme-color" content="#0d0c0b" />
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+  <link rel="canonical" href="/" />
+
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:title" content="Sushi Koya · Omakase, New York" />
+  <meta property="og:description" content="Twelve seats. One counter. The chef's choice. 163 West 71st Street." />
+  <meta property="og:image" content="images/hero.jpg" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&family=Shippori+Mincho:wght@400;600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "Sushi Koya",
+    "servesCuisine": ["Japanese", "Sushi", "Omakase"],
+    "priceRange": "$$$",
+    "telephone": "+1-917-675-6355",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "163 West 71st Street",
+      "addressLocality": "New York",
+      "addressRegion": "NY",
+      "postalCode": "10023",
+      "addressCountry": "US"
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "17:00",
+      "closes": "22:00"
+    }],
+    "acceptsReservations": "https://resy.com/cities/ny/sushi-koya",
+    "hasMenu": "/#menu"
+  }
+  </script>
+</head>
+<body class="is-loading">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ OPENING ANIMATION ============ -->
+  <div id="intro" aria-hidden="true">
+    <div class="intro__panel intro__panel--l"></div>
+    <div class="intro__panel intro__panel--r"></div>
+    <div class="intro__stage">
+      <svg class="intro__enso" viewBox="0 0 400 400" aria-hidden="true">
+        <defs>
+          <filter id="brush" x="-20%" y="-20%" width="140%" height="140%">
+            <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" result="n" />
+            <feDisplacementMap in="SourceGraphic" in2="n" scale="7" xChannelSelector="R" yChannelSelector="G" />
+          </filter>
+        </defs>
+        <path class="enso-stroke enso-stroke--main" filter="url(#brush)"
+          d="M 262 76 C 330 106 356 190 330 256 C 300 332 210 362 140 330 C 70 298 42 214 74 148 C 100 94 156 64 214 68" />
+        <path class="enso-stroke enso-stroke--dry" filter="url(#brush)"
+          d="M 255 82 C 318 112 342 190 318 250 C 290 320 210 348 146 318" />
+      </svg>
+      <div class="intro__kanji">寿司</div>
+      <div class="intro__seal"><span>コ</span><span>ヤ</span></div>
+      <h2 class="intro__word" aria-label="Sushi Koya">
+        <span>S</span><span>U</span><span>S</span><span>H</span><span>I</span><span class="sp"></span><span>K</span><span>O</span><span>Y</span><span>A</span>
+      </h2>
+      <p class="intro__sub">Omakase · 163 West 71st Street · New York</p>
+    </div>
+    <div class="intro__progress"><i></i></div>
+    <button class="intro__skip" type="button">Skip intro</button>
+  </div>
+
+  <!-- custom cursor -->
+  <div class="cursor" aria-hidden="true"><div class="cursor__dot"></div><div class="cursor__ring"><span>Reserve</span></div></div>
+
+  <!-- ============ HEADER ============ -->
+  <header class="nav" id="nav">
+    <a href="#top" class="nav__logo" aria-label="Sushi Koya home">
+      <span class="logo-seal">寿</span>
+      <span class="logo-word">Sushi Koya</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#story">The Counter</a>
+      <a href="#omakase">Omakase</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Visit</a>
+      <a href="#private">Private Dining</a>
+    </nav>
+    <div class="nav__right">
+      <span class="status-pill" data-status><i></i><span>Daily 5–10 pm</span></span>
+      <a class="btn btn--shu btn--sm magnetic" data-resy href="https://resy.com/cities/ny/sushi-koya" target="_blank" rel="noopener">Reserve Now</a>
+      <button class="nav__burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <nav aria-label="Mobile">
+      <a href="#story"><em>01</em>The Counter</a>
+      <a href="#omakase"><em>02</em>Omakase</a>
+      <a href="#menu"><em>03</em>Menu</a>
+      <a href="#gallery"><em>04</em>Gallery</a>
+      <a href="#visit"><em>05</em>Visit</a>
+      <a href="#private"><em>06</em>Private Dining</a>
+    </nav>
+    <div class="mobile-menu__foot">
+      <a class="btn btn--shu" data-resy href="https://resy.com/cities/ny/sushi-koya" target="_blank" rel="noopener">Reserve on Resy</a>
+      <p>163 West 71st Street, New York<br /><a href="tel:+19176756355">(917) 675-6355</a></p>
+    </div>
+  </div>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <div class="hero__media">
+        <div class="photo photo--hero" data-photo="hero" data-art="nigiri" role="img" aria-label="Nigiri at the Sushi Koya counter"></div>
+        <canvas class="hero__motes" aria-hidden="true"></canvas>
+        <div class="hero__shade"></div>
+      </div>
+
+      <div class="hero__vertical" aria-hidden="true">おまかせ · 職人の手</div>
+
+      <div class="hero__content">
+        <p class="eyebrow hero__eyebrow"><span class="line"></span>Upper West Side · New York</p>
+        <h1 class="hero__title">
+          <span class="split-line"><span>Sushi</span></span>
+          <span class="split-line"><span><em>Koya</em></span></span>
+        </h1>
+        <p class="hero__lede">Twelve seats. One counter. The chef's choice.</p>
+        <div class="hero__ctas">
+          <a class="btn btn--shu btn--lg magnetic" data-resy data-cursor="reserve" href="https://resy.com/cities/ny/sushi-koya" target="_blank" rel="noopener">
+            <span>Reserve Now on Resy</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn--ghost btn--lg" href="#omakase">Explore the Omakase</a>
+        </div>
+      </div>
+
+      <div class="hero__meta">
+        <div><span>Omakase</span><strong>13 &amp; 18 courses</strong></div>
+        <div><span>Nightly</span><strong>5:00 – 10:00 pm</strong></div>
+        <div><span>Counter</span><strong>12 seats</strong></div>
+      </div>
+
+      <a class="hero__scroll" href="#story" aria-label="Scroll to content"><span>Scroll</span><i></i></a>
+    </section>
+
+    <!-- ============ MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Omakase</span><b>握り</b><span>Twelve Seats</span><b>✦</b><span>Ōtoro</span><b>雲丹</b><span>Dry-Aged Fish</span><b>✦</b><span>Hand Roll</span><b>手巻き</b><span>West 71st Street</span><b>✦</b>
+        <span>Omakase</span><b>握り</b><span>Twelve Seats</span><b>✦</b><span>Ōtoro</span><b>雲丹</b><span>Dry-Aged Fish</span><b>✦</b><span>Hand Roll</span><b>手巻き</b><span>West 71st Street</span><b>✦</b>
+      </div>
+    </div>
+
+    <!-- ============ STORY ============ -->
+    <section class="story section" id="story">
+      <div class="container story__grid">
+        <div class="story__text">
+          <p class="eyebrow reveal"><span class="num">01</span>The Counter</p>
+          <h2 class="display words">A quiet room on West&nbsp;71st, where dinner is placed in your&nbsp;hand one piece at a&nbsp;time.</h2>
+          <p class="reveal">Sushi Koya is an intimate omakase bar tucked onto a tree-lined block of the Upper West Side. Twelve guests sit at a single counter, close enough to watch every cut, every press of rice, every brush of soy.</p>
+          <p class="reveal">There is no menu to study and nothing to decide. <em>Omakase</em> means <em>"I leave it to you."</em> The chef reads the market, the season and the room, and builds the night around the best fish of the day, some of it carefully dry-aged in house.</p>
+          <div class="stats reveal">
+            <div class="stat"><strong data-count="12">12</strong><span>Seats at the counter</span></div>
+            <div class="stat"><strong data-count="4">4</strong><span>Seatings nightly</span></div>
+            <div class="stat"><strong data-count="18">18</strong><span>Courses at most</span></div>
+            <div class="stat"><strong data-count="7">7</strong><span>Nights a week</span></div>
+          </div>
+        </div>
+        <div class="story__media">
+          <figure class="photo-frame clip-reveal parallax" data-speed="0.08">
+            <div class="photo" data-photo="story" data-art="knife" role="img" aria-label="The chef at work behind the counter"></div>
+          </figure>
+          <figure class="photo-frame photo-frame--small clip-reveal parallax" data-speed="-0.06">
+            <div class="photo" data-photo="counter" data-art="counter" role="img" aria-label="The twelve-seat counter"></div>
+          </figure>
+          <div class="story__stamp" aria-hidden="true"><span>おまかせ</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ OMAKASE ============ -->
+    <section class="omakase section section--dark" id="omakase">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal"><span class="num">02</span>The Omakase</p>
+          <h2 class="display reveal">Two ways to sit at the&nbsp;counter.</h2>
+          <p class="section-head__sub reveal">Both are served at every seating. Choose when you book on Resy.</p>
+        </div>
+        <div class="omakase__cards" data-omakase>
+          <!-- rendered from site.json; static fallback below -->
+          <article class="course-card reveal">
+            <div class="course-card__top"><span class="course-card__jp">おまかせ</span><span class="course-card__count"><b>13</b> courses</span></div>
+            <h3>Thirteen-Course Omakase</h3>
+            <p class="course-card__price"><sup>$</sup>85</p>
+            <p>A focused progression through the night's best fish. A lighter evening at the counter, ideal for a first visit.</p>
+            <a class="btn btn--outline" data-resy href="https://resy.com/cities/ny/sushi-koya" target="_blank" rel="noopener">Reserve</a>
+          </article>
+          <article class="course-card course-card--featured reveal">
+            <div class="course-card__top"><span class="course-card__jp">特上おまかせ</span><span class="course-card__count"><b>18</b> courses</span></div>
+            <h3>Eighteen-Course Omakase</h3>
+            <p class="course-card__price"><sup>$</sup>115</p>
+            <p>Five appetizers, ten nigiri, a mini don, a hand roll and dessert.</p>
+            <a class="btn btn--shu" data-resy href="https://resy.com/cities/ny/sushi-koya" target="_blank" rel="noopener">Reserve</a>
+          </article>
+        </div>
+        <p class="fineprint reveal">Prices per guest, before tax &amp; gratuity, and subject to change with the market. Please confirm current pricing on Resy.</p>
+      </div>
+    </section>
+
+    <!-- ============ MENU ============ -->
+    <section class="menu section" id="menu">
+      <div class="container menu__grid">
+        <div class="menu__sticky">
+          <p class="eyebrow reveal"><span class="num">03</span>The Menu</p>
+          <h2 class="display reveal">The progression of an&nbsp;evening.</h2>
+          <p class="reveal">The eighteen-course omakase, course by course. The fish changes nightly. The rhythm does not.</p>
+          <div class="menu__art reveal" aria-hidden="true">
+            <div class="photo photo--contain" data-art="nigiri"></div>
+          </div>
+          <a class="btn btn--shu magnetic reveal" data-resy href="https://resy.com/cities/ny/sushi-koya" target="_blank" rel="noopener">Reserve a Seat</a>
+        </div>
+        <ol class="progression" data-progression>
+          <li class="prog reveal"><span class="prog__num">01–05</span><span class="prog__jp">前菜</span><div><h3>Appetizers</h3><p>Small seasonal plates to open the palate: chilled, warm, cured and torched.</p></div></li>
+          <li class="prog reveal"><span class="prog__num">06–15</span><span class="prog__jp">握り</span><div><h3>Nigiri</h3><p>Ten pieces, formed and brushed with nikiri one at a time.</p></div></li>
+          <li class="prog reveal"><span class="prog__num">16</span><span class="prog__jp">丼</span><div><h3>Mini Don</h3><p>A small rice bowl crowned with the evening's indulgence.</p></div></li>
+          <li class="prog reveal"><span class="prog__num">17</span><span class="prog__jp">手巻き</span><div><h3>Hand Roll</h3><p>Crisp nori, warm rice, handed straight across the counter.</p></div></li>
+          <li class="prog reveal"><span class="prog__num">18</span><span class="prog__jp">甘味</span><div><h3>Dessert</h3><p>A quiet, sweet ending.</p></div></li>
+        </ol>
+      </div>
+
+      <div class="container market">
+        <div class="market__head">
+          <h3 class="display-sm reveal">From the market</h3>
+          <p class="reveal" data-fish-note>Our fish changes with the market and the season. These are examples of what may appear.</p>
+        </div>
+        <div class="fish-grid" data-fish></div>
+      </div>
+    </section>
+
+    <!-- ============ GALLERY ============ -->
+    <section class="gallery section section--dark" id="gallery">
+      <div class="container">
+        <div class="section-head section-head--row">
+          <div>
+            <p class="eyebrow reveal"><span class="num">04</span>Gallery</p>
+            <h2 class="display reveal">At the counter.</h2>
+          </div>
+          <p class="section-head__sub reveal">Moments from the bar at 163 West 71st Street.</p>
+        </div>
+        <div class="gallery__grid" data-gallery></div>
+      </div>
+    </section>
+
+    <!-- ============ REVIEWS ============ -->
+    <section class="reviews section" id="reviews">
+      <div class="container reviews__inner">
+        <div class="rating reveal">
+          <strong data-rating>4.8</strong>
+          <div class="stars" aria-hidden="true">★★★★★</div>
+          <span data-rating-label>on Yelp</span>
+        </div>
+        <div class="quotes" data-quotes aria-live="polite">
+          <blockquote class="quote is-active"><p>"The best sushi (in the Western Hemisphere) I have ever had!"</p><cite>Tripadvisor guest</cite></blockquote>
+        </div>
+        <div class="quotes__dots" data-quote-dots></div>
+      </div>
+    </section>
+
+    <!-- ============ VISIT ============ -->
+    <section class="visit section section--dark" id="visit">
+      <div class="container visit__grid">
+        <div class="visit__info">
+          <p class="eyebrow reveal"><span class="num">05</span>Visit</p>
+          <h2 class="display reveal">Find us on West&nbsp;71st.</h2>
+          <dl class="info-list">
+            <div class="reveal"><dt>Address</dt><dd>163 West 71st Street<br />New York, NY 10023<br /><a class="link" href="https://www.google.com/maps/search/?api=1&query=Sushi+Koya+163+W+71st+St+New+York+NY" target="_blank" rel="noopener">Get directions →</a></dd></div>
+            <div class="reveal"><dt>Hours</dt><dd>Monday – Sunday<br />5:00 pm – 10:00 pm<br /><span class="status-pill status-pill--inline" data-status><i></i><span>Checking…</span></span></dd></div>
+            <div class="reveal"><dt>Phone</dt><dd><a class="link" href="tel:+19176756355">(917) 675-6355</a></dd></div>
+            <div class="reveal"><dt>Getting here</dt><dd>Steps from the 72 St stations: 1 · 2 · 3 at Broadway, B · C at Central Park West.</dd></div>
+            <div class="reveal"><dt>Reservations</dt><dd>Booked exclusively through Resy. Seatings begin promptly. Please arrive a few minutes early.<br /><a class="link" data-resy href="https://resy.com/cities/ny/sushi-koya" target="_blank" rel="noopener">Reserve on Resy →</a></dd></div>
+          </dl>
+        </div>
+        <div class="visit__map reveal">
+          <iframe title="Map to Sushi Koya, 163 West 71st Street" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Sushi+Koya,+163+W+71st+St,+New+York,+NY&output=embed"></iframe>
+          <div class="visit__mapcard"><span class="logo-seal">寿</span><div><strong>Sushi Koya</strong><span>163 W 71st St</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRIVATE DINING ============ -->
+    <section class="private section" id="private">
+      <div class="container private__grid">
+        <div class="private__copy">
+          <p class="eyebrow reveal"><span class="num">06</span>Private Dining</p>
+          <h2 class="display reveal">The whole counter, for your&nbsp;table.</h2>
+          <p class="reveal">Reserve all twelve seats for a birthday, an anniversary, a team dinner or a celebration that deserves the chef's full attention. Tell us about your evening and we'll be in touch.</p>
+          <ul class="ticks reveal">
+            <li>Full buyouts for up to 12 guests</li>
+            <li>Gift experiences &amp; special occasions</li>
+            <li>Press &amp; general inquiries</li>
+          </ul>
+          <p class="reveal small">For same-day questions, please call <a class="link" href="tel:+19176756355">(917) 675-6355</a>.</p>
+        </div>
+        <form class="form reveal" id="inquiry-form" name="inquiry" method="POST" data-netlify="true" netlify-honeypot="company_website" novalidate>
+          <input type="hidden" name="form-name" value="inquiry" />
+          <div class="form__row">
+            <label class="field field--full">
+              <span>Inquiry</span>
+              <select name="type">
+                <option value="buyout">Counter buyout (up to 12)</option>
+                <option value="private-dining">Private dining / celebration</option>
+                <option value="gift">Gift experience</option>
+                <option value="press">Press</option>
+                <option value="general">General question</option>
+              </select>
+            </label>
+          </div>
+          <div class="form__row">
+            <label class="field"><span>Name</span><input name="name" autocomplete="name" required /><em class="field__err"></em></label>
+            <label class="field"><span>Email</span><input name="email" type="email" autocomplete="email" required /><em class="field__err"></em></label>
+          </div>
+          <div class="form__row">
+            <label class="field"><span>Phone <i>(optional)</i></span><input name="phone" type="tel" autocomplete="tel" /></label>
+            <label class="field field--half"><span>Date</span><input name="date" type="date" /></label>
+            <label class="field field--half"><span>Guests</span><input name="guests" type="number" min="1" max="12" value="12" /></label>
+          </div>
+          <label class="field field--full"><span>Tell us about your evening</span><textarea name="message" rows="4" required></textarea><em class="field__err"></em></label>
+          <label class="hp" aria-hidden="true">Website<input name="company_website" tabindex="-1" autocomplete="off" /></label>
+          <button class="btn btn--shu btn--block" type="submit"><span>Send Inquiry</span></button>
+          <p class="form__msg" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq section section--paper" id="faq">
+      <div class="container faq__grid">
+        <div>
+          <p class="eyebrow reveal"><span class="num">07</span>Good to know</p>
+          <h2 class="display reveal">Before you&nbsp;arrive.</h2>
+        </div>
+        <div class="accordion" data-faq></div>
+      </div>
+    </section>
+
+    <!-- ============ FINAL CTA ============ -->
+    <section class="cta">
+      <div class="cta__bg" aria-hidden="true">
+        <div class="photo" data-photo="chef" data-art="handroll"></div>
+      </div>
+      <div class="cta__inner container">
+        <p class="cta__jp reveal" aria-hidden="true">いらっしゃいませ</p>
+        <h2 class="cta__title reveal">Take a seat at the counter.</h2>
+        <a class="btn btn--shu btn--xl magnetic reveal" data-resy data-cursor="reserve" href="https://resy.com/cities/ny/sushi-koya" target="_blank" rel="noopener">
+          <span>Reserve Now on Resy</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+        <p class="cta__note reveal">Twelve seats · Four seatings nightly · 5 – 10 pm</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#top" class="nav__logo"><span class="logo-seal">寿</span><span class="logo-word">Sushi Koya</span></a>
+        <p>Omakase on the Upper West Side.</p>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p>163 West 71st Street<br />New York, NY 10023<br /><a href="tel:+19176756355">(917) 675-6355</a></p>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <p>Monday – Sunday<br />5:00 – 10:00 pm</p>
+      </div>
+      <div class="footer__news">
+        <h4>Letters from the counter</h4>
+        <p>Seasonal fish, new seatings and special evenings. Rarely, and only when it matters.</p>
+        <form class="news" id="news-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="company_website" novalidate>
+          <input type="hidden" name="form-name" value="newsletter" />
+          <input type="email" name="email" placeholder="Your email" aria-label="Email address" required />
+          <input class="hp" name="company_website" tabindex="-1" autocomplete="off" aria-hidden="true" />
+          <button type="submit" aria-label="Subscribe">→</button>
+        </form>
+        <p class="news__msg" role="status"></p>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <span>© <span data-year>2026</span> Sushi Koya. All rights reserved.</span>
+      <nav aria-label="Footer">
+        <a href="#omakase">Omakase</a><a href="#menu">Menu</a><a href="#visit">Visit</a>
+        <a data-resy href="https://resy.com/cities/ny/sushi-koya" target="_blank" rel="noopener">Reserve on Resy</a>
+      </nav>
+    </div>
+    <div class="footer__giant" aria-hidden="true">KOYA</div>
+  </footer>
+
+  <!-- mobile sticky reserve -->
+  <a class="mobile-reserve" data-resy href="https://resy.com/cities/ny/sushi-koya" target="_blank" rel="noopener">
+    <span>Reserve Now</span><small>on Resy</small>
+  </a>
+
+  <!-- lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer" hidden>
+    <button class="lightbox__close" aria-label="Close">×</button>
+    <button class="lightbox__nav lightbox__prev" aria-label="Previous photo">‹</button>
+    <figure><div class="lightbox__img"></div><figcaption></figcaption></figure>
+    <button class="lightbox__nav lightbox__next" aria-label="Next photo">›</button>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

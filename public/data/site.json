@@ -1,0 +1,253 @@
+{
+  "name": "Sushi Koya",
+  "tagline": "Omakase on West 71st Street",
+  "resy": "https://resy.com/cities/ny/sushi-koya",
+  "formEndpoint": "",
+  "phone": "(917) 675-6355",
+  "phoneHref": "tel:+19176756355",
+  "address": {
+    "line1": "163 West 71st Street",
+    "line2": "New York, NY 10023",
+    "neighborhood": "Upper West Side · Lincoln Square",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Sushi+Koya+163+W+71st+St+New+York+NY",
+    "mapEmbed": "https://www.google.com/maps?q=Sushi+Koya,+163+W+71st+St,+New+York,+NY&output=embed",
+    "transit": "Steps from the 72 St stations (1 · 2 · 3 at Broadway, B · C at Central Park West)"
+  },
+  "hours": [
+    {
+      "days": "Monday – Sunday",
+      "time": "5:00 pm – 10:00 pm"
+    }
+  ],
+  "counter": {
+    "seats": 12,
+    "seatingsPerNight": 4
+  },
+  "omakase": [
+    {
+      "id": "thirteen",
+      "name": "Thirteen-Course Omakase",
+      "jp": "おまかせ",
+      "courses": 13,
+      "price": 85,
+      "summary": "A focused progression through the night's best fish. A lighter evening at the counter, ideal for a first visit.",
+      "flow": [
+        "Seasonal appetizers",
+        "Nigiri, one piece at a time",
+        "Finishing courses",
+        "Dessert"
+      ]
+    },
+    {
+      "id": "eighteen",
+      "name": "Eighteen-Course Omakase",
+      "jp": "特上おまかせ",
+      "courses": 18,
+      "price": 115,
+      "featured": true,
+      "summary": "The full journey: five appetizers, ten nigiri, a mini don, a hand roll and dessert. The one most guests come back for.",
+      "flow": [
+        "5 appetizers",
+        "10 nigiri",
+        "1 mini don",
+        "1 hand roll",
+        "Dessert"
+      ]
+    }
+  ],
+  "progression": [
+    {
+      "num": "01–05",
+      "jp": "前菜",
+      "name": "Appetizers",
+      "desc": "Small seasonal plates to open the palate: chilled, warm, cured and torched."
+    },
+    {
+      "num": "06–15",
+      "jp": "握り",
+      "name": "Nigiri",
+      "desc": "Ten pieces, formed and brushed with nikiri one at a time. Moving from lean and bright to rich and fatty."
+    },
+    {
+      "num": "16",
+      "jp": "丼",
+      "name": "Mini Don",
+      "desc": "A small rice bowl crowned with the evening's indulgence."
+    },
+    {
+      "num": "17",
+      "jp": "手巻き",
+      "name": "Hand Roll",
+      "desc": "Crisp nori, warm rice. Handed straight across the counter, to be eaten immediately."
+    },
+    {
+      "num": "18",
+      "jp": "甘味",
+      "name": "Dessert",
+      "desc": "A quiet, sweet ending."
+    }
+  ],
+  "fish": [
+    {
+      "jp": "大トロ",
+      "romaji": "Ōtoro",
+      "en": "Fatty bluefin belly"
+    },
+    {
+      "jp": "中トロ",
+      "romaji": "Chūtoro",
+      "en": "Medium-fatty bluefin"
+    },
+    {
+      "jp": "赤身",
+      "romaji": "Akami",
+      "en": "Lean bluefin"
+    },
+    {
+      "jp": "雲丹",
+      "romaji": "Uni",
+      "en": "Sea urchin"
+    },
+    {
+      "jp": "鯛",
+      "romaji": "Madai",
+      "en": "Sea bream"
+    },
+    {
+      "jp": "鰤",
+      "romaji": "Buri",
+      "en": "Yellowtail"
+    },
+    {
+      "jp": "帆立",
+      "romaji": "Hotate",
+      "en": "Scallop"
+    },
+    {
+      "jp": "鮭",
+      "romaji": "Sake",
+      "en": "Salmon"
+    },
+    {
+      "jp": "鯵",
+      "romaji": "Aji",
+      "en": "Horse mackerel"
+    },
+    {
+      "jp": "穴子",
+      "romaji": "Anago",
+      "en": "Sea eel"
+    },
+    {
+      "jp": "いくら",
+      "romaji": "Ikura",
+      "en": "Salmon roe"
+    },
+    {
+      "jp": "金目鯛",
+      "romaji": "Kinmedai",
+      "en": "Golden-eye snapper"
+    }
+  ],
+  "fishNote": "Our fish changes with the market and the season, and some of it is dry-aged in house. These are examples of what may appear. Tonight's selection is decided by the chef.",
+  "reviews": [
+    {
+      "quote": "The best sushi (in the Western Hemisphere) I have ever had!",
+      "source": "Tripadvisor guest"
+    },
+    {
+      "quote": "Melt-in-your-mouth toro and perfectly seasoned uni.",
+      "source": "Tripadvisor guest"
+    },
+    {
+      "quote": "One of the best omakase experiences I've had.",
+      "source": "Yelp guest"
+    },
+    {
+      "quote": "An amazing dinner!",
+      "source": "Tripadvisor guest"
+    }
+  ],
+  "rating": {
+    "score": "4.8",
+    "label": "on Yelp"
+  },
+  "gallery": [
+    {
+      "src": "images/gallery-1.jpg",
+      "alt": "Nigiri on the counter",
+      "caption": "Nigiri",
+      "size": "tall"
+    },
+    {
+      "src": "images/gallery-2.jpg",
+      "alt": "The twelve-seat sushi bar",
+      "caption": "The counter",
+      "size": "wide"
+    },
+    {
+      "src": "images/gallery-3.jpg",
+      "alt": "Chef slicing fish",
+      "caption": "The knife",
+      "size": ""
+    },
+    {
+      "src": "images/gallery-4.jpg",
+      "alt": "Otoro nigiri",
+      "caption": "Ōtoro",
+      "size": ""
+    },
+    {
+      "src": "images/gallery-5.jpg",
+      "alt": "Uni hand roll",
+      "caption": "Hand roll",
+      "size": "tall"
+    },
+    {
+      "src": "images/gallery-6.jpg",
+      "alt": "Mini don",
+      "caption": "Mini don",
+      "size": ""
+    },
+    {
+      "src": "images/gallery-7.jpg",
+      "alt": "Appetizer course",
+      "caption": "Zensai",
+      "size": "wide"
+    },
+    {
+      "src": "images/gallery-8.jpg",
+      "alt": "Dessert",
+      "caption": "Dessert",
+      "size": ""
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I reserve?",
+      "a": "All reservations are made through Resy. With only twelve seats and four seatings a night, we recommend booking ahead, especially for weekends."
+    },
+    {
+      "q": "How long is dinner?",
+      "a": "Each seating runs at a set time so the whole counter moves through the omakase together. Please arrive a few minutes early. Courses begin promptly."
+    },
+    {
+      "q": "Can you accommodate allergies or dietary restrictions?",
+      "a": "Please note any allergies in your Resy reservation or call us at (917) 675-6355 before your visit so the chef can prepare. Omakase is a raw-fish focused menu, so some restrictions may be difficult to accommodate."
+    },
+    {
+      "q": "Which omakase should I choose?",
+      "a": "The 13-course is a lighter evening. For most adults with a healthy appetite, our guests recommend the 18-course."
+    },
+    {
+      "q": "Can I book the whole counter?",
+      "a": "Yes. Use the private dining form below to ask about buyouts of all twelve seats for birthdays, celebrations and corporate dinners."
+    }
+  ],
+  "photos": {
+    "hero": "images/hero.jpg",
+    "story": "images/story.jpg",
+    "counter": "images/counter.jpg",
+    "chef": "images/chef.jpg"
+  }
+}

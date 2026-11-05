@@ -1,0 +1,13 @@
+{
+  "name": "sushi-koya",
+  "version": "1.0.0",
+  "description": "Website for Sushi Koya — omakase at 163 West 71st Street, New York",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "UNLICENSED",
+  "private": true
+}
