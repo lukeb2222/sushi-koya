@@ -128,6 +128,13 @@
     }
     if (site.rating) { $('[data-rating]').textContent = site.rating.score; $('[data-rating-label]').textContent = site.rating.label; }
 
+    // Photo credits (CC BY requires attribution)
+    const cr = $('[data-credits]');
+    if (cr && site.photoCredits?.length) {
+      cr.innerHTML = site.photoCredits.map((c) => `<li>“${esc(c.title)}” by <a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.author)}</a>, <a href="${esc(c.licenseUrl)}" target="_blank" rel="noopener">${esc(c.license)}</a></li>`).join('');
+      if (site.photoNote) $('[data-photo-note]').textContent = site.photoNote;
+    } else if (cr) cr.closest('details').hidden = true;
+
     // FAQ
     const faq = $('[data-faq]');
     if (faq && site.faq?.length) {
