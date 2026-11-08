@@ -66,8 +66,13 @@ The site is served from the `gh-pages` branch, which holds the contents of `publ
 To publish changes:
 
 ```bash
-git subtree split --prefix public -b gh-pages && git push -f origin gh-pages
+git fetch origin gh-pages
+git push origin "$(git commit-tree main:public -p origin/gh-pages -m 'Publish site')":refs/heads/gh-pages
 ```
+
+This adds a new commit on top of the live branch (no force-push), so anything
+changed directly on GitHub is kept in history. Keep `public/CNAME`: it holds the
+custom domain (sushikoyanyc.com).
 
 On static hosting there's no `/api`, so the private-dining and newsletter forms
 post to `formEndpoint` in `public/data/site.json` (e.g. a free Formspree form:
