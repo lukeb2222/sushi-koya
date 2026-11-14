@@ -706,3 +706,6 @@ em { font-style: italic; }
 .credits ul { margin: 0; padding: 0; list-style: none; columns: 2 320px; column-gap: 40px; }
 .credits li { break-inside: avoid; padding: 3px 0; }
 .credits a { text-decoration: underline; text-underline-offset: 2px; }
+.footer__sep { margin: 0 8px; opacity: .5; }
+.footer__credit { border-bottom: 1px solid rgba(154,145,131,.4); padding-bottom: 1px; transition: color .3s, border-color .3s; }
+.footer__credit:hover { color: var(--gold); border-color: var(--gold); }
